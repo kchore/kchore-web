@@ -28911,3 +28911,10 @@ ActionController::RoutingError (No route matches [GET] "/assets"):
 
 Started GET "/assets/skyline.jpg" for 127.0.0.1 at 2013-10-14 20:46:41 -0400
 Served asset /skyline.jpg - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+  [1m[36m (1.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreatePics (20131005203226)
+Migrating to AddImageToUsers (20131006183631)
+Migrating to DeviseCreateUsers (20131006204839)
+  [1m[35m (0.3ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
