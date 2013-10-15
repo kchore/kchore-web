@@ -15,7 +15,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: testapp_development
+  database: kchore_webdev_development
   pool: 5
   username: postgres 
   password: firehose
@@ -42,7 +42,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: testapp_test
+  database: kchore_webdev_test
   pool: 5
   username: postgres 
   password: firehose
@@ -51,7 +51,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: testapp_production
+  database: kchore_webdev_production
   pool: 5
   username: postgres 
   password: firehose
