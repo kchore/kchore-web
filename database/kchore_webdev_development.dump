@@ -244,12 +244,12 @@ CREATE UNIQUE INDEX unique_schema_migrations ON schema_migrations USING btree (v
 
 
 --
--- Name: public; Type: ACL; Schema: -; Owner: donj
+-- Name: public; Type: ACL; Schema: -; Owner: "postgres"
 --
 
 REVOKE ALL ON SCHEMA public FROM PUBLIC;
-REVOKE ALL ON SCHEMA public FROM donj;
-GRANT ALL ON SCHEMA public TO donj;
+REVOKE ALL ON SCHEMA public FROM "postgres";
+GRANT ALL ON SCHEMA public TO "postgres";
 GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
