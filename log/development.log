@@ -29456,3 +29456,250 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/skyline.jpg" for 127.0.0.1 at 2013-10-14 22:07:58 -0400
 Served asset /skyline.jpg - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 11:45:20 -0500
+Processing by StaticpagesController#index as HTML
+  Rendered staticpages/index.html.erb within layouts/application (1.6ms)
+Compiled twitter-bootstrap-static/bootstrap.css  (69ms)  (pid 28690)
+Compiled twitter-bootstrap-static/fontawesome.css  (19ms)  (pid 28690)
+Compiled bootstrap_and_overrides.css  (96ms)  (pid 28690)
+Compiled application.css  (101ms)  (pid 28690)
+Compiled jquery.js  (38ms)  (pid 28690)
+Compiled jquery_ujs.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 28690)
+Compiled twitter/bootstrap.js  (38ms)  (pid 28690)
+Compiled application.js  (91ms)  (pid 28690)
+Completed 200 OK in 222ms (Views: 221.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:20 -0500
+Served asset /application.css - 200 OK (16ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:20 -0500
+Served asset /twitter-bootstrap-static/bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:20 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:20 -0500
+Served asset /bootstrap_and_overrides.css - 200 OK (39ms)
+
+
+Started GET "/assets/pics.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:21 -0500
+Served asset /pics.css - 200 OK (1ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:21 -0500
+Served asset /master.css - 200 OK (1ms)
+
+
+Started GET "/assets/staticpages.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:21 -0500
+Served asset /staticpages.css - 200 OK (1ms)
+
+
+Started GET "/assets/skyline.jpg" for 127.0.0.1 at 2013-11-14 11:45:21 -0500
+Served asset /skyline.jpg - 200 OK (1ms)
+
+
+Started GET "/pics/new" for 127.0.0.1 at 2013-11-14 11:45:25 -0500
+Processing by PicsController#new as HTML
+  Rendered pics/new.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 104ms (Views: 78.6ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:25 -0500
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:25 -0500
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:25 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:25 -0500
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:25 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pics.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:26 -0500
+Served asset /pics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/staticpages.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:26 -0500
+Served asset /staticpages.css - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2013-11-14 11:45:29 -0500
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/registrations/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 42ms (Views: 20.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:29 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:29 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:29 -0500
+Served asset /twitter-bootstrap-static/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:29 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:29 -0500
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pics.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:29 -0500
+Served asset /pics.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/staticpages.css?body=1" for 127.0.0.1 at 2013-11-14 11:45:29 -0500
+Served asset /staticpages.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Processing by StaticpagesController#index as HTML
+  Rendered staticpages/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 111ms (Views: 110.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Served asset /application.css - 200 OK (48ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Served asset /twitter-bootstrap-static/bootstrap.css - 200 OK (2ms)
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Served asset /twitter-bootstrap-static/fontawesome.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Served asset /bootstrap_and_overrides.css - 200 OK (3ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Served asset /master.css - 200 OK (1ms)
+
+
+Started GET "/assets/pics.css?body=1" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Served asset /pics.css - 200 OK (1ms)
+
+
+Started GET "/assets/staticpages.css?body=1" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Served asset /staticpages.css - 200 OK (1ms)
+
+
+Started GET "/assets/skyline.jpg" for 127.0.0.1 at 2013-11-14 21:25:19 -0500
+Served asset /skyline.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /jquery.js - 200 OK (48ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /jquery_ujs.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:25 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:26 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:26 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:26 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:26 -0500
+Served asset /twitter/bootstrap.js - 200 OK (12ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:26 -0500
+Served asset /bootstrap.js - 200 OK (1ms)
+
+
+Started GET "/assets/pics.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:26 -0500
+Served asset /pics.js - 200 OK (1ms)
+
+
+Started GET "/assets/staticpages.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:26 -0500
+Served asset /staticpages.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-14 21:25:26 -0500
+Served asset /application.js - 200 OK (19ms)
