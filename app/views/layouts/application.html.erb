@@ -72,7 +72,14 @@
 </div>
 </head>
 <body class="<%= params[:controller]%>">
-
+<script type="text/javascript">
+alert("My First JavaScript");
+  $.backstretch([
+      "/Users/donj/code/kchore-web/app/assets/image/asparagus3.jpg"
+    , "http://dl.dropbox.com/u/515046/www/garfield-interior.jpg"
+    , "http://dl.dropbox.com/u/515046/www/cheers.jpg"
+  ], {duration: 3000, fade: 750});
+ </script>
 
 <% if notice.present? %>
        <p class="notice"><%= notice %></p>
