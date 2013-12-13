@@ -11,7 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131006204839) do
+ActiveRecord::Schema.define(:version => 20131213044008) do
+
+  create_table "chores", :force => true do |t|
+    t.text     "description"
+    t.date     "due_date"
+    t.time     "due_time"
+    t.integer  "status"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "pics", :force => true do |t|
     t.integer  "hour"
